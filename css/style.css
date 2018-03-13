@@ -1,0 +1,410 @@
+/*Demo styles*/
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: "Helvetica Neue", "Helvetica, Arial", "sans-serif";
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    /*display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;*/
+}
+
+/*背景部分*/
+.swiper-slide {
+    background: url(../img/bj.jpg);
+    background-size: 100% 100%;
+}
+
+#top {
+    position: relative;
+    width: 90%;
+    height: 25%;
+    /*border: 2px solid #fff;*/
+    left: 5%;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#top #yuan {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: music 4000ms linear 600ms infinite;
+}
+
+@keyframes music {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#bottom {
+    width: 100%;
+}
+
+#bottom #zuanshi {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+#bottom #dian {
+    position: absolute;
+    width: 96%;
+    right: 0;
+    bottom: 0;
+}
+/*背景部分*/
+
+
+/*第一屏开始*/
+.swiper-slide.one{
+    width: 100%;
+   position: relative;
+}
+.swiper-slide.one .center{
+    width: 80%;
+    /*border: 2px solid #fff;*/
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2%;
+}
+
+.swiper-slide.one .center .jiao{
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.swiper-slide.one .center .yqh{
+    width: 68%;
+    height: 36%;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 16%;
+}
+.swiper-slide.one .bottom{
+    margin-top: -5%;    
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    color: white;
+    font-size: 5vw;
+    padding: 0 10%;
+    /*border: 1px solid #fff;*/
+}
+.swiper-slide.one .bottom strong{
+    color
+}
+.swiper-slide.one .bottom p{
+    line-height: 0.5em;
+}
+/*第一屏结束*/
+
+
+/*第二屏开始*/
+.top{
+    
+}
+.top h4{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+}
+.top .xian{
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+    left: 0; 
+    text-align: left;
+}
+.swiper-slide.two .center{
+    width: 86%;
+    height: 60%;
+    margin: 0 auto;
+/*    border: 1px solid #fff;*/
+    
+    
+    overflow: hidden;
+}
+.swiper-slide.two .center p{
+    line-height: 1.8em;
+    font-size: 5vw;
+    color: white;
+}
+.swiper-slide.two .center .p1{
+    text-indent: 2em;
+    margin-top: -4%;
+}
+.swiper-slide.two .bottom{
+   
+}
+.swiper-slide.two .bottom .didu{
+    width: 100%;
+    height: 100%;
+    
+}
+/*第二屏结束*/
+
+/*第三屛开始*/
+.swiper-slide.three{}
+.swiper-slide.three .center{
+    margin-top: 5%;
+    width: 90%;
+    height: 60%;
+    bottom: 12%;    
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 5%;
+    z-index: 10;
+    /*border: 1px solid #fff;*/
+}
+/*第三屏结束*/
+
+
+
+
+
+
+/*第四屏开始*/
+.swiper-slide.four .center{
+    width: 90%;
+    height: 66%;
+    /*border: 1px solid #fff;*/
+    margin: 0 auto;
+    margin-top: -3%;
+}
+.swiper-slide.four .center p{
+    color: white;
+    font-size: 5vw;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+/*第四屏结束*/
+
+
+/*第五屏开始*/
+.swiper-slide.five{
+    
+}
+.swiper-slide.five .center{
+    width: 85%;
+    height: 60%;
+    margin: 0 auto;
+    /*border: 1px solid #fff;*/
+    margin-top: 10%;
+}
+.swiper-slide.five .center .left{
+    float: left;
+    width: 38%;
+    margin-left: 5%;
+    /*border: 1px solid #fff;*/
+    border-right: 2px solid #fff;
+}
+.swiper-slide.five .center .left span{
+    float: right;
+    line-height: 2em;
+}
+.swiper-slide.five .center .right span{
+    float: left;
+    line-height: 2em;
+    padding-left: 10%;
+}
+.swiper-slide.five .center .right{
+    float: left;
+    width: 55%;
+
+    /*border: 1px solid #fff;*/
+}
+.swiper-slide.five .center span{
+    width: 100%;
+    color: #fff;
+    font-size: 5vw;
+}
+/*第五屏结束*/
+
+/*第六、七屏开始*/
+.swiper-slide.six{}
+.swiper-slide.six .center{
+    width: 90%;
+    height: 66%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    left: 5%;
+    bottom: 8%;
+}
+.swiper-slide.six .center img{
+    width: 100%;
+}
+
+/*第六、七屏结束*/
+
+
+
+
+
+/*第八屏开始*/
+.swiper-slide.eight{}
+.swiper-slide.eight .center{
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+    position: absolute;
+    left: 13%;
+    margin-top: 2%;
+    z-index: 10;
+/*    border: 1px solid #fff;*/
+}
+.k{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 6%;
+    font-size: 3vw;
+}
+.swiper-slide.eight .center input,
+.swiper-slide.eight .center select{
+    width: 100%;
+    padding: 5%;   
+    padding-left: 5%;
+    font-size: 4vw;
+    border: none;
+}
+.swiper-slide.eight .center select option{
+    width: 75%;
+    overflow: hidden;
+    text-align: center;
+    color: aqua
+}
+.tijiao{
+    border: none;
+    background-color: #3edcfe;
+    color: #fff;
+}
+/*.swiper-slide.six .bottom{
+    width: 90%;
+    height: 25%; 
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 10;
+    bottom: 8%;
+    left: 10%;
+    font-size: 5vw;
+    color: #fff;
+}
+.swiper-slide.six .bottom .left{
+    width: 40%;
+    float: left;
+    padding: 3%;    
+    border: 1px solid #fff;
+}
+.swiper-slide.six .bottom .right{
+    padding: 3%;    
+}*/
+/*第八屏结束*/
+
+
+
+
+/*进退按钮部分*/
+.swiper-button-next{
+    position: absolute;
+    bottom:3%;
+    left: 47%;
+    top:auto;
+    transform: rotateZ(-90deg);
+    background-image:url("../img/san.png");
+    animation: dong 1.5s linear infinite;
+}
+@keyframes dong{
+    from{
+        bottom:1%;
+        opacity:1;
+    }
+    to{
+        bottom:4%;
+        opacity:0;
+    }
+}
+/*进退按钮部分*/
+
+
+/*音乐部分开始*/
+#music{
+    width: 20%;
+    height: 15%;
+    /*border:2px solid black;*/
+    position: fixed;
+    z-index: 9;
+    top: 0%;
+    right: 0%;
+    /*background: pink;*/
+}
+#music .musicBg{
+    position: absolute;
+    width: 100%;
+    /*border:2px solid red;*/
+    /*display: block;*/
+}
+#music .musicImg{
+    width: 65%;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    animation: music 1.5s linear infinite;
+}
+@keyframes music{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/*音乐部分结束*/
